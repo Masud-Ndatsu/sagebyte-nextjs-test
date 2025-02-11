@@ -4,7 +4,7 @@ import ContentArea from "@/components/ContentArea";
 import { useEffect, useState } from "react";
 
 export default function DashboardLayout() {
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  const [isMobile, setIsMobile] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
